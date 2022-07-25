@@ -7,11 +7,11 @@ dataSources:
   # FACTORIES
   - kind: ethereum/contract
     name: AlphaRandomCurvedLostWorldFactory
-    network: fuji
+    network: avalanche
     source:
-      address: '0xdB2C5f2Fc62807659594E6B0EBBE8863DdB288E4'
+      address: '0xfD81c8A69A749B4E0C34Afc6f29900B77Dd928f6'
       abi: AlphaRandomCurvedLostWorldFactory
-      startBlock: 11300000
+      startBlock: 7000000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -27,11 +27,11 @@ dataSources:
           handler: handleAlphaRandomCurvedLostWorldRegistered
   - kind: ethereum/contract
     name: BetaRandomFlatLostWorldFactory
-    network: fuji
+    network: avalanche
     source:
-      address: '0x38370fFe7Ed75CBFeA9Ddb31b70F159B4e06AFDb'
+      address: '0x17161D0624B21CFAc1204B370F12092E695bF0E4'
       abi: BetaRandomFlatLostWorldFactory
-      startBlock: 11300000
+      startBlock: 7000000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -47,11 +47,11 @@ dataSources:
           handler: handleBetaRandomFlatLostWorldRegistered
   - kind: ethereum/contract
     name: BetaSimpleFlatLostWorldFactory
-    network: fuji
+    network: avalanche
     source:
-      address: '0xba37cf86e6B43F72231081386492BC790a4AbDa0'
+      address: '0x279B07702f6384f137DD7c06e825F4170526a3ac'
       abi: BetaSimpleFlatLostWorldFactory
-      startBlock: 11300000
+      startBlock: 7000000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -67,11 +67,11 @@ dataSources:
           handler: handleBetaSimpleFlatLostWorldRegistered
   - kind: ethereum/contract
     name: GammaRandomFlatLostWorldFactory
-    network: fuji
+    network: avalanche
     source:
-      address: '0xD5F01fA4aa0175E200158C09C14B55581D5e7D2a'
+      address: '0x9738f96e738fd028117C39448Af7B0481F812BB4'
       abi: GammaRandomFlatLostWorldFactory
-      startBlock: 11300000
+      startBlock: 7000000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -87,11 +87,11 @@ dataSources:
           handler: handleGammaRandomFlatLostWorldRegistered
   - kind: ethereum/contract
     name: GammaSimpleFlatLostWorldFactory
-    network: fuji
+    network: avalanche
     source:
-      address: '0x54Ff1Dd838d2eB5620DfEDC805555bDC76e6B2d9'
+      address: '0xEF1EF869bE3292584880B802860f6Fc9d6d3A94e'
       abi: GammaSimpleFlatLostWorldFactory
-      startBlock: 11300000
+      startBlock: 7000000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -108,11 +108,11 @@ dataSources:
   # MARKETPLACES
   - kind: ethereum/contract
     name: AlphaLostWorldsMarketplaceV1
-    network: fuji
+    network: avalanche
     source:
-      address: '0xe2a80c3258Ec9dcAaCe480fb89B24e39644eb1f0'
+      address: '0x23D6f7b67866b59Cc0366282A50E0e12EB751ede'
       abi: AlphaLostWorldsMarketplaceV1
-      startBlock: 11300000
+      startBlock: 7000000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -133,11 +133,11 @@ dataSources:
           handler: handleAlphaLostWorldsMarketplaceV1OrderRemoved
   - kind: ethereum/contract
     name: LostWorldsMarketplace
-    network: fuji
+    network: avalanche
     source:
-      address: '0x162681827f41e389EE27da6b0f32310d6123d747'
+      address: '0xD5836B14A44b60209c6C20023d721858047a9E7E'
       abi: LostWorldsMarketplace
-      startBlock: 11300000
+      startBlock: 7000000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -159,11 +159,11 @@ dataSources:
   # ACHIEVEMENTS
   - kind: ethereum/contract
     name: BetaLostAchievementFactoryClone
-    network: fuji
+    network: avalanche
     source:
-      address: '0x6Dca3BF381Be60F034680b73c47826779d8f0481'
+      address: '0xB1AF0f655D3aA4d4d35F4B34D4C11Dd4f8d6c84d'
       abi: BetaLostAchievementFactoryClone
-      startBlock: 11300000
+      startBlock: 7000000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -179,11 +179,11 @@ dataSources:
           handler: handleNewBetaAchievementRegistered
   - kind: ethereum/contract
     name: GammaLostAchievementFactoryClone
-    network: fuji
+    network: avalanche
     source:
-      address: '0xE4ef4bFB3b0C0cadc307dFFfAF3AEaad0b41302d'
+      address: '0xADb684b1A1370BF4FC4FF0CA0ddFbB3174B70574'
       abi: GammaLostAchievementFactoryClone
-      startBlock: 11300000
+      startBlock: 7000000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -202,7 +202,7 @@ templates:
   # LOST WORLDS
   - kind: ethereum/contract
     name: AlphaRandomCurvedLostWorld
-    network: fuji
+    network: avalanche
     source:
       abi: AlphaRandomCurvedLostWorld
     mapping:
@@ -221,7 +221,7 @@ templates:
           handler: handleTransfer
   - kind: ethereum/contract
     name: BetaRandomFlatLostWorld
-    network: fuji
+    network: avalanche
     source:
       abi: BetaRandomFlatLostWorld
     mapping:
@@ -240,7 +240,7 @@ templates:
           handler: handleTransfer
   - kind: ethereum/contract
     name: BetaSimpleFlatLostWorld
-    network: fuji
+    network: avalanche
     source:
       abi: BetaSimpleFlatLostWorld
     mapping:
@@ -259,7 +259,7 @@ templates:
           handler: handleTransfer
   - kind: ethereum/contract
     name: GammaRandomFlatLostWorld
-    network: fuji
+    network: avalanche
     source:
       abi: GammaRandomFlatLostWorld
     mapping:
@@ -278,7 +278,7 @@ templates:
           handler: handleTransfer
   - kind: ethereum/contract
     name: GammaSimpleFlatLostWorld
-    network: fuji
+    network: avalanche
     source:
       abi: GammaSimpleFlatLostWorld
     mapping:
@@ -298,7 +298,7 @@ templates:
   # ACHIEVEMENTS
   - kind: ethereum/contract
     name: BetaLostAchievement
-    network: fuji
+    network: avalanche
     source:
       abi: BetaLostAchievement
     mapping:
@@ -316,7 +316,7 @@ templates:
           handler: handleBadgeClaimed
   - kind: ethereum/contract
     name: GammaLostAchievement
-    network: fuji
+    network: avalanche
     source:
       abi: GammaLostAchievement
     mapping:

@@ -16,6 +16,7 @@
     "deploy:avalanche": "yarn deploy matevzStinjek/lw-subgraph-avalanche",
     "deploy:fuji": "yarn deploy matevzStinjek/lw-subgraph-fuji",
     "deploy:third": "yarn deploy matevzStinjek/lw-subgraph-third",
+    "deploy:mirror": "yarn deploy matevzStinjek/lw-subgraph-mirror",
     "deploy:sandbox": "yarn deploy matevzStinjek/lw-subgraph-sandbox"
   },
   "dependencies": {
